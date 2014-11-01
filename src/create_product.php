@@ -5,6 +5,8 @@ require_once "bootstrap.php";
 
 $newProductName = $argv[1];
 
+$entityManager = GetEntityManager();
+
 $product = new Product();
 $product->setName($newProductName);
 
