@@ -8,7 +8,7 @@ use Doctrine\ORM\EntityManager;
 
 function GetEntityManager()
 {
-  $paths = array(__DIR__ . '/../config/yml');
+  $paths = array(__DIR__ . '/../config/yaml');
   $isDevMode = true;
   // If $isDevMode is true caching is done in memory with the ArrayCache. Proxy objects are recreated on every request.
 
