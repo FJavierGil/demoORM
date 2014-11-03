@@ -8,8 +8,7 @@
     "license": "proprietary",
     "authors": [
         {
-            "name": "FJavierGil",
-            "email": "fjavier.gilr@gmail.com"
+            "name": "FJavierGil"
         }
     ],
 	"autoload": {
